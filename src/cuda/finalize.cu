@@ -120,6 +120,8 @@ namespace vcuda{
          cu::stats::material_height_magnetization.cu_real_array_t::~cu_real_array_t ();
          cu::stats::material_height_mean_magnetization.cu_real_array_t::~cu_real_array_t ();
 
+         cudaProfilerStop();
+
       }
    } /* internal */
 #endif
